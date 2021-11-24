@@ -8,7 +8,7 @@
     "build": "graph build",
     "create-local": "graph create pandora/pandoraswap --node http://127.0.0.1:8020",
     "deploy-local": "graph deploy pandora/pandoraswap --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "watch-local": "graph deploy graphprotocol/pandoraswap --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
+    "watch-local": "graph deploy pandora/pandoraswap --watch --debug --node http://127.0.0.1:8020/ --ipfs http://localhost:5001"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.16.0",
